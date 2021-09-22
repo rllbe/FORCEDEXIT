@@ -1,0 +1,4 @@
+#!/bin/sh
+killall -9 IMTranscoderAgent
+killall -9 com.apple.WebKit.WebContent
+exit 0

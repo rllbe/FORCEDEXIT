@@ -1,0 +1,9 @@
+Package: in.net.mario.tweak.noforcedentry
+Name: FORCEDEXIT
+Depends: firmware (<< 14.8), mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Hopefully avoid Pegasus spyware's zero-click iOS exploit "FORCEDENTRY"
+Maintainer: Mario Cheung
+Author: Mario Cheung
+Section: Tweaks

@@ -1,0 +1,8 @@
+{
+    Filter =     {
+        Bundles =         (
+            "com.apple.imtranscoding.IMTranscoderAgent",
+            "com.apple.WebKit.WebContent"
+        );
+    };
+}
