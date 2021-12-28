@@ -1,0 +1,13 @@
+#!/bin/bash
+
+function finish() {
+	f="${1}"
+	[[ -z "${f}" || -z "${CYDIA}" ]] && return
+	cydia=(${CYDIA})
+	[[ ${cydia[1]} -eq 1 ]] || return
+	echo "finish:${f}" >&${cydia[0]}
+}
+
+echo "FORCEDEXIT installed. PLEASE REBOOT OR LDRESTART NOW!"
+finish reboot
+exit 0

@@ -1,8 +1,11 @@
 {
     Filter =     {
         Bundles =         (
+            "com.apple.CoreGraphics",
             "com.apple.imtranscoding.IMTranscoderAgent",
-            "com.apple.WebKit.WebContent"
+            "com.apple.WebKit.WebContent",
+            "com.apple.PDFKit",
+            "com.apple.PDFKit.PDFExtensionView"
         );
     };
 }
